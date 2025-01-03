@@ -9,7 +9,21 @@ The Sentilizer is a sentiment analyzer which is built on top of the Stanford Cor
 > analyze sentiment based on the English model
 
 ### Usage
-
+1. Create a new Maven project. If you are using IntelliJ Idea, open the IDE and click on "Create New Project and Choose Maven"
+2. Add dependencies
+Open the pom.xml file of your project and add the following dependency
+```declarative
+<dependencies>
+    <dependency>
+        <groupId>org.sylnit</groupId>
+        <artifactId>sentilizer</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </dependency>
+    ...
+</dependencies>
+```
+3. Reload All Maven Project to install the dependencies
+4. Write your code and include the necessary classes.
 
 ### Example
 ``` java
