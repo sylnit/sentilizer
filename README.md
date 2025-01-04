@@ -6,7 +6,7 @@
 The Sentilizer is a sentiment analyzer which is built on top of the Stanford CoreNLP.
 
 ### Features
-> analyze sentiment based on the English model
+> Analyze sentiment based on the English model
 
 ### Usage
 1. Create a new Maven project. If you are using IntelliJ Idea, open the IDE and click on "Create New Project and Choose Maven"
@@ -33,7 +33,7 @@ String sentiment = sentilizer.analyze(text);
 ```
 
 ### Discussions and development
-Development discussions are taking place on the issues page. If you notice any bug or need for a new feature, please raise it on the issues page for further discussion.
+Development discussions take place on the issues page. If you notice any bug or want to contribute a new feature, please raise it on the issues page for further discussion.
 
 ### Contribution
-If you want to contribute, kindly checkout the issues on the issues page. The fork the repository and create your solution in a branch and raise Pull Request to main branch.
+If you want to contribute, kindly checkout the issues page. Then fork the repository and create your solution in a branch and raise Pull Request to main branch.
